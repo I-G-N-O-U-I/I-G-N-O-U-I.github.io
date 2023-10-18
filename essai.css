@@ -1,0 +1,64 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #9b9b9b;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #10886a;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #ffffff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Styles pour la mise en page en deux colonnes */
+        .container {
+            display: flex;
+            align-items: center; /* Alignement vertical au centre */
+        }
+        
+        .text-column {
+            flex: 1; /* La colonne de texte prend tout l'espace disponible */
+            padding: 20px;
+            background-color: #555555; /* Couleur de fond pour la colonne de texte */
+        }
+        
+        .image-column {
+            flex: 1; /* La colonne d'image prend tout l'espace disponible */
+            text-align: center; /* Alignement du contenu au centre */
+        }

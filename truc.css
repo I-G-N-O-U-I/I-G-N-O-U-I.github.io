@@ -1,0 +1,106 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #16c3c9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hero {
+    
+background-size: cover;
+text-align: center;
+padding: 100px 0;
+color: #fff;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #0078d4;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.content {
+    background-color: #363636;
+    padding: 40px 0;
+}
+
+.service {
+    
+text-align: center;
+margin-bottom: 30px;
+color: rgb(0, 255, 255);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.service p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: aquamarine;
+    color: #000000;
+  }
